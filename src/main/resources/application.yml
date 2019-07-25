@@ -1,11 +1,11 @@
 server:
-  port: 8080
+  port: 8082
 
 spring:
   datasource:
-    username: guest
-    password: 88888888..
-    url: jdbc:mysql://www.xd999.online:3306/yz?useUnicode=true&characterEncoding=utf8&allowMultiqueries=true&serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+    url: jdbc:mysql://loveu3000.top:3306/mp?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     #   数据源其他配置

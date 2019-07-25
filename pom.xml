@@ -65,11 +65,22 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!--actuator应用监控启动器-->
+
+        <!--sqlServer数据库支持-->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc4</artifactId>
+            <scope>4.0</scope>
+            <version>4.0</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>6.2.0.jre8</version>
+            <scope>runtime</scope>
+        </dependency>
+
         <!--MyBatis-Plus依赖-->
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -82,28 +93,7 @@
             <artifactId>velocity-engine-core</artifactId>
             <version>2.0</version>
         </dependency>
-        <!--Spring缓存依赖-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-cache</artifactId>
-        </dependency>
-        <!--Ehcache缓存依赖-->
-        <dependency>
-            <groupId>net.sf.ehcache</groupId>
-            <artifactId>ehcache</artifactId>
-        </dependency>
-        <!--Spring整合Shiro安全框架依赖-->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>1.3.2</version>
-        </dependency>
-        <!--Shiro依赖-->
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-ehcache</artifactId>
-            <version>1.3.2</version>
-        </dependency>
+
         <!--JSP依赖-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
