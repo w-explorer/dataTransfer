@@ -14,7 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>yz</name>
-    <description>基于Spring Boot Mybatis plus 的达内援藏项目</description>
+    <description>基于Spring Boot Mybatis plus </description>
 
     <properties>
         <start-class>org.edu.cdtu.yz.YzApplication</start-class>
